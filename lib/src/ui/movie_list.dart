@@ -12,6 +12,7 @@ class MovieList extends StatefulWidget {
 }
 
 class MovieListState extends State<MovieList> {
+
   @override
   void initState() {
     super.initState();
@@ -41,17 +42,26 @@ class MovieListState extends State<MovieList> {
           return Center(child: CircularProgressIndicator());
         },
       ),
+      floatingActionButton: FloatingActionButton(
+        // key: Key("movieListed"),
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context)=> MovieDetail()));
+        },
+        child: Text('Button'),
+      ),
     );
   }
 
   Widget buildList(AsyncSnapshot<ItemModel> snapshot) {
     return GridView.builder(
+        key: Key("movieListed"),
         itemCount: snapshot.data.results.length,
         gridDelegate:
         new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
         itemBuilder: (BuildContext context, int index) {
           return GridTile(
             child: InkResponse(
+              // key: Key("movieListed"),
               enableFeedback: true,
               child: Image.network(
                 'https://image.tmdb.org/t/p/w185${snapshot.data

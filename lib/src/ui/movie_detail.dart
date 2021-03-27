@@ -70,6 +70,7 @@ class MovieDetailState extends State<MovieDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: Key('movieDetail'),
       body: SafeArea(
         top: false,
         bottom: false,
