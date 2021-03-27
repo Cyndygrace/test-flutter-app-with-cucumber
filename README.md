@@ -39,3 +39,11 @@ sagarsuri56@gmail.com
 
 LinkedIn profile: 
 https://www.linkedin.com/in/sagar-suri/
+
+# To run automated test with gherkins
+ dart test_driver/test_config.dart
+## Test steps
+The test will assert that list of movies
+and when user taps on a movie, the movie detail is displayed.
+
+
