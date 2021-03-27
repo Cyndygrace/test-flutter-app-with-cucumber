@@ -42,13 +42,13 @@ class MovieListState extends State<MovieList> {
           return Center(child: CircularProgressIndicator());
         },
       ),
-      floatingActionButton: FloatingActionButton(
-        // key: Key("movieListed"),
-        onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context)=> MovieDetail()));
-        },
-        child: Text('Button'),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   // key: Key("movieListed"),
+      //   onPressed: (){
+      //     Navigator.push(context, MaterialPageRoute(builder: (context)=> MovieDetail()));
+      //   },
+      //   child: Text('Button'),
+      // ),
     );
   }
 

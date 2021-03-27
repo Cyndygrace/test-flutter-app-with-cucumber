@@ -195,3 +195,23 @@
 2021-03-27 18:43:43.359828 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
 2021-03-27 18:43:43.426956 >>> {command: waitFor, timeout: 1000, finderType: ByValueKey, keyValueString: movieDetail, keyValueType: String}
 2021-03-27 18:43:43.509064 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 18:59:50.677602 >>> {command: get_health}
+2021-03-27 18:59:51.047489 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 18:59:51.222054 >>> {command: waitFor, timeout: 1000, finderType: ByValueKey, keyValueString: movieListed, keyValueType: String}
+2021-03-27 18:59:51.485348 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 18:59:51.569783 >>> {command: tap, timeout: 30000, finderType: ByValueKey, keyValueString: movieListed, keyValueType: String}
+2021-03-27 18:59:52.312787 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 18:59:52.434976 >>> {command: waitForCondition, timeout: 30000, conditionName: NoTransientCallbacksCondition}
+2021-03-27 18:59:54.034526 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 18:59:54.138017 >>> {command: waitFor, timeout: 1000, finderType: ByValueKey, keyValueString: movieDetail, keyValueType: String}
+2021-03-27 18:59:54.217138 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 19:00:19.306683 >>> {command: get_health}
+2021-03-27 19:00:19.409274 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 19:00:19.513487 >>> {command: waitFor, timeout: 1000, finderType: ByValueKey, keyValueString: movieListed, keyValueType: String}
+2021-03-27 19:00:20.276492 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 19:00:20.418960 >>> {command: tap, timeout: 30000, finderType: ByValueKey, keyValueString: movieListed, keyValueType: String}
+2021-03-27 19:00:20.853303 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 19:00:20.961253 >>> {command: waitForCondition, timeout: 30000, conditionName: NoTransientCallbacksCondition}
+2021-03-27 19:00:22.144999 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2021-03-27 19:00:22.263845 >>> {command: waitFor, timeout: 1000, finderType: ByValueKey, keyValueString: movieDetail, keyValueType: String}
+2021-03-27 19:00:22.384077 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}

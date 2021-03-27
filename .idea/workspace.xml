@@ -25,17 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b768ceb-ed40-464a-bcfc-91207de355d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_driver/app.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_driver/test_config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/blocs/movie_detail_bloc_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/blocs/movie_detail_bloc_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/resources/movie_api_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/resources/movie_api_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ui/movie_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ui/movie_detail.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ui/movie_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ui/movie_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="1b768ceb-ed40-464a-bcfc-91207de355d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
