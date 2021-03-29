@@ -1,6 +1,6 @@
 # My Movies
 
-A Flutter app showcasing a list of popular movies from MovieDB. 
+A Flutter app showcasing a list of popular movies from MovieDB which uses cucumber for testing. 
 
 Here is a quick video of the app:
 
